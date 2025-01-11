@@ -18,7 +18,7 @@ import {
   developer,
   spacetourism,
   appleclone,
-  tripguide,
+  mortgagecalculator,
   threejs,
 } from "../assets";
 
@@ -218,16 +218,16 @@ const projects = [
     live_code_link: "https://apple-clone-delta-two.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Mortgage Calculator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A user-friendly web application that helps users calculate their monthly mortgage payments, taking into account loan amount, interest rate, and loan term, with the option to adjust inputs and see real-time updates.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -235,8 +235,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: mortgagecalculator,
+    source_code_link: "https://github.com/Fabricius97/Mortgage-repayment-calc",
+    live_code_link: "https://mortgage-repayment-calc-seven.vercel.app/",
   },
 ];
 

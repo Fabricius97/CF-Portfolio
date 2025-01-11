@@ -28,7 +28,7 @@ import engineer from "./company/engineer.png";
 
 import spacetourism from "./spacetourism.jpg";
 import appleclone from "./appleclone.jpg";
-import tripguide from "./tripguide.png";
+import mortgagecalculator from "./mortgagecalculator.png";
 
 export {
   logo,
@@ -57,6 +57,6 @@ export {
   developer,
   spacetourism,
   appleclone,
-  tripguide,
+  mortgagecalculator,
   livecode,
 };
