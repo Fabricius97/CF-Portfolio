@@ -20,6 +20,8 @@ import {
   appleclone,
   mortgagecalculator,
   threejs,
+  jakobkebede,
+  filipwindahl,
 } from "../assets";
 
 export const navLinks = [
@@ -146,28 +148,20 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: `Christoffer has an impressive ability to learn quickly. Despite only a few months of programming, he’s already mastered both frontend and backend technologies. He easily grasps new concepts and applies them in practice. He’s patient, thorough, and solution-focused, making it a pleasure to coach him!`,
+    name: "Filip Windahl",
+    linkedIn: "https://www.linkedin.com/in/filip-windahl-98930317a/",
+    designation: "Head Of Customer Success & Web Developer",
+    company: "Techover Academy",
+    image: filipwindahl,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: `Christoffer is hardworking, disciplined, and a great problem solver. When faced with challenges, he breaks down problems methodically to find solutions or ask for help effectively. He’s friendly, easy to connect with, and great both at work and during after-work events!`,
+    name: "Jakob Kebede",
+    linkedIn: "https://www.linkedin.com/in/jakob-kebede-628370124/",
+    designation: "Community Manager & Web Developer",
+    company: "Techover Academy",
+    image: jakobkebede,
   },
 ];
 

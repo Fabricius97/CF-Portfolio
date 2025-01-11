@@ -30,6 +30,9 @@ import spacetourism from "./spacetourism.jpg";
 import appleclone from "./appleclone.jpg";
 import mortgagecalculator from "./mortgagecalculator.png";
 
+import filipwindahl from "./filipwindahl.jpg";
+import jakobkebede from "./jakobkebede.jpg";
+
 export {
   logo,
   backend,
@@ -59,4 +62,6 @@ export {
   appleclone,
   mortgagecalculator,
   livecode,
+  filipwindahl,
+  jakobkebede,
 };
