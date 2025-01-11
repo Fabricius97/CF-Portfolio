@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -14,12 +13,11 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   engineer,
   carpenter,
   developer,
-  carrent,
-  jobit,
+  spacetourism,
+  appleclone,
   tripguide,
   threejs,
 } from "../assets";
@@ -72,10 +70,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -106,10 +100,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -183,46 +173,49 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Space Tourism",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application providing information about space travel, including destinations like the Moon and Mars, astronauts, and the technology enabling space exploration.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react-router",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "figma",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: spacetourism,
+    source_code_link: "https://github.com/Fabricius97/Space-Tourism-Page",
+    live_code_link: "https://space-tourism-page-ebon.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Apple Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A responsive web application that replicates the Apple website, featuring sleek animations, interactive elements, and a modern design, allowing users to explore various products and services.",
+
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "GSAP",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: appleclone,
+    source_code_link: "https://github.com/Fabricius97/Apple-Website",
+    live_code_link: "https://apple-clone-delta-two.vercel.app/",
   },
   {
     name: "Trip Guide",

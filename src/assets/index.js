@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import livecode from "./livecode.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,8 +26,8 @@ import developer from "./company/developer.png";
 import carpenter from "./company/carpenter.png";
 import engineer from "./company/engineer.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import spacetourism from "./spacetourism.jpg";
+import appleclone from "./appleclone.jpg";
 import tripguide from "./tripguide.png";
 
 export {
@@ -54,7 +55,8 @@ export {
   engineer,
   carpenter,
   developer,
-  carrent,
-  jobit,
+  spacetourism,
+  appleclone,
   tripguide,
+  livecode,
 };
